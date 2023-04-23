@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Multi-step Form 📃</title>
+</head>
+
+<body>
+    <main class="d-flex">
+        <div class="card">
+            <div class="art">
+                <img src="./images/man_sitting_under_a_tree_ai_art.jpeg" alt="Man sitting under a tree">
+            </div>
+            <form action="" class="register-form">
+                <div class="form-div" id="first">
+                    <h1 class="register-title">Register</h1>
+                    <div class="input-div">
+                        <div class="outer-div">
+                            <input type="text" name="" id="" class="input-field name" placeholder="First name">
+                            <input type="text" name="" id="" class="input-field name" placeholder="Last name">
+                        </div>
+                        <input type="email" name="" id="" class="input-field" placeholder="Email">
+                        <input type="password" name="" id="" class="input-field" placeholder="Password">
+                    </div>
+                    <button type="button" class="next-btn" id="next-1">NEXT</button>
+                </div>
+                <div class="form-div" id="second">
+                    <h1>Tell us about your education.</h1>
+                    <input type="text" name="" id="" class="input-field" placeholder="College">
+                    <div class="outer-div">
+                        <input type="text" name="" id="" class="input-field" placeholder="Grade">
+                        <input type="text" name="" id="" class="input-field" placeholder="Subject">
+                    </div>
+                    <input type="text" name="" id="" class="input-field" placeholder="Course">
+                    <div class="outer-div">
+                        <button type="button" class="next-btn" id="prev-1">BACK</button>
+                        <button type="button" class="next-btn" id="next-2">NEXT</button>
+                    </div>
+                </div>
+                <div class="form-div" id="last"></div>
+                <p class="login-redirect">Already a user? - <a href="/" style="color: #f8974d;">Go to login</a></p>
+            </form>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
