@@ -32,28 +32,43 @@
                     <h1 class="register-title">Register</h1>
                     <div class="input-div">
                         <div class="outer-div">
-                            <input type="text" name="" id="" class="input-field name" placeholder="First name">
-                            <input type="text" name="" id="" class="input-field name" placeholder="Last name">
+                            <input type="text" name="" id="first-name" class="input-field name" placeholder="First name">
+                            <input type="text" name="last-name" id="" class="input-field name" placeholder="Last name">
                         </div>
-                        <input type="email" name="" id="" class="input-field" placeholder="Email">
-                        <input type="password" name="" id="" class="input-field" placeholder="Password">
+                        <input type="email" name="email" id="" class="input-field" placeholder="Email">
+                        <input type="password" name="password" id="" class="input-field" placeholder="Password">
                     </div>
-                    <button type="button" class="next-btn" id="next-1">NEXT</button>
+                    <button type="button" class="nav-btn" id="next-1">NEXT</button>
                 </div>
                 <div class="form-div" id="second">
-                    <h1>Tell us about your education.</h1>
-                    <input type="text" name="" id="" class="input-field" placeholder="College">
-                    <div class="outer-div">
-                        <input type="text" name="" id="" class="input-field" placeholder="Grade">
-                        <input type="text" name="" id="" class="input-field" placeholder="Subject">
+                    <h1>More about you!</h1>
+                    <input type="number" placeholder="Phone (optional)" class="input-field ph-number" id="phone">
+                    <div class="dob-div">
+                        <p>Date of birth</p>
+                        <div class="outer-div">
+                            <input type="number" name="" id="birth-date" class="input-field" placeholder="Date">
+                            <input type="number" name="birth-month" id="" class="input-field" placeholder="Month">
+                            <input type="number" name="birth-year" id="" class="input-field" placeholder="Year">
+                        </div>
                     </div>
-                    <input type="text" name="" id="" class="input-field" placeholder="Course">
                     <div class="outer-div">
-                        <button type="button" class="next-btn" id="prev-1">BACK</button>
-                        <button type="button" class="next-btn" id="next-2">NEXT</button>
+                        <button type="button" class="nav-btn" id="prev-1">BACK</button>
+                        <button type="button" class="nav-btn" id="next-2">NEXT</button>
                     </div>
                 </div>
-                <div class="form-div" id="last"></div>
+                <div class="form-div" id="last">
+                    <h1>Tell us about your education.</h1>
+                    <input type="text" name="" id="college" class="input-field" placeholder="College">
+                    <div class="outer-div">
+                        <input type="text" name="" id="grade" class="input-field" placeholder="Grade">
+                        <input type="text" name="" id="subject" class="input-field" placeholder="Subject">
+                    </div>
+                    <input type="text" name="course" id="" class="input-field" placeholder="Course">
+                    <div class="outer-div">
+                        <button type="button" class="nav-btn" id="prev-2">BACK</button>
+                        <button type="submit" class="nav-btn" id="submit">SUBMIT</button>
+                    </div>
+                </div>
                 <p class="login-redirect">Already a user? - <a href="/" style="color: #f8974d;">Go to login</a></p>
             </form>
         </div>
