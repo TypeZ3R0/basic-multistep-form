@@ -10,10 +10,12 @@ const prevBtnOne = document.querySelector("#prev-1");
 const nextBtnTwo = document.querySelector("#next-2");
 const prevBtnTwo = document.querySelector("#prev-2");
 
+// Form
+const multiStepForm = document.querySelector("#multi-step-form");
+
 // Form internals
 const firstName = document.querySelector("#first-name");
 const lastName = document.querySelector("#last-name");
-
 
 
 // Hide first div and show second div
@@ -37,4 +39,10 @@ nextBtnTwo.addEventListener("click", () => {
 prevBtnTwo.addEventListener("click", () => {
     last.style.display = "none";
     second.style.display = "flex";
+})
+
+
+// On submit
+multiStepForm.addEventListener("submit", () => {
+    prompt("Thanks for submitting");
 })
